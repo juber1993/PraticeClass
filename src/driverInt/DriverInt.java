@@ -4,16 +4,11 @@ import org.openqa.selenium.WebDriver;
 
 
 
-public class DriverInt
-
-
-
-{
+public class DriverInt{
 	protected WebDriver driver;
 
-	public void typeByXpath(String locators, String Values)
-	{
-		driver.findElement(By.xpath(locators)).sendKeys(Values);
+	public void typeByXpath(String XpathLocators, String Values)	{
+		driver.findElement(By.xpath(XpathLocators)).sendKeys(Values);
 	}
 
 
