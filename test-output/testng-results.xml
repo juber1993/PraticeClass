@@ -2,20 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11596" started-at="2018-04-24T03:39:19Z" finished-at="2018-04-24T03:39:31Z">
+  <suite name="Default suite" duration-ms="73" started-at="2018-04-25T01:21:30Z" finished-at="2018-04-25T01:21:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11596" started-at="2018-04-24T03:39:19Z" finished-at="2018-04-24T03:39:31Z">
-      <class name="mainPackage.mainClass">
-        <test-method status="PASS" signature="setDrivers()[pri:0, instance:mainPackage.mainClass@53b32d7]" name="setDrivers" is-config="true" duration-ms="11136" started-at="2018-04-24T03:39:19Z" finished-at="2018-04-24T03:39:30Z">
+    <test name="Default test" duration-ms="73" started-at="2018-04-25T01:21:30Z" finished-at="2018-04-25T01:21:30Z">
+      <class name="mainPackage.AnnotationPractice">
+        <test-method status="PASS" signature="Before_Suite()[pri:0, instance:mainPackage.AnnotationPractice@29ee9faa]" name="Before_Suite" is-config="true" duration-ms="26" started-at="2018-04-25T01:21:29Z" finished-at="2018-04-25T01:21:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setDrivers -->
-        <test-method status="PASS" signature="testingFramework()[pri:0, instance:mainPackage.mainClass@53b32d7]" name="testingFramework" duration-ms="428" started-at="2018-04-24T03:39:30Z" finished-at="2018-04-24T03:39:31Z">
+        </test-method> <!-- Before_Suite -->
+        <test-method status="PASS" signature="Before_Test()[pri:0, instance:mainPackage.AnnotationPractice@29ee9faa]" name="Before_Test" is-config="true" duration-ms="0" started-at="2018-04-25T01:21:30Z" finished-at="2018-04-25T01:21:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testingFramework -->
-      </class> <!-- mainPackage.mainClass -->
+        </test-method> <!-- Before_Test -->
+        <test-method status="PASS" signature="Before_Class()[pri:0, instance:mainPackage.AnnotationPractice@29ee9faa]" name="Before_Class" is-config="true" duration-ms="1" started-at="2018-04-25T01:21:30Z" finished-at="2018-04-25T01:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Class -->
+        <test-method status="PASS" signature="FirstTest()[pri:0, instance:mainPackage.AnnotationPractice@29ee9faa]" name="FirstTest" duration-ms="6" started-at="2018-04-25T01:21:30Z" finished-at="2018-04-25T01:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstTest -->
+        <test-method status="PASS" signature="Before_Method()[pri:0, instance:mainPackage.AnnotationPractice@29ee9faa]" name="Before_Method" is-config="true" duration-ms="0" started-at="2018-04-25T01:21:30Z" finished-at="2018-04-25T01:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method status="PASS" signature="After_Method()[pri:0, instance:mainPackage.AnnotationPractice@29ee9faa]" name="After_Method" is-config="true" duration-ms="1" started-at="2018-04-25T01:21:30Z" finished-at="2018-04-25T01:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method status="PASS" signature="After_Class()[pri:0, instance:mainPackage.AnnotationPractice@29ee9faa]" name="After_Class" is-config="true" duration-ms="0" started-at="2018-04-25T01:21:30Z" finished-at="2018-04-25T01:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Class -->
+        <test-method status="PASS" signature="After_Test()[pri:0, instance:mainPackage.AnnotationPractice@29ee9faa]" name="After_Test" is-config="true" duration-ms="1" started-at="2018-04-25T01:21:30Z" finished-at="2018-04-25T01:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+        <test-method status="PASS" signature="After_Suit()[pri:0, instance:mainPackage.AnnotationPractice@29ee9faa]" name="After_Suit" is-config="true" duration-ms="1" started-at="2018-04-25T01:21:30Z" finished-at="2018-04-25T01:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Suit -->
+      </class> <!-- mainPackage.AnnotationPractice -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

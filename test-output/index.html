@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\JUBER AHMED\AppData\Local\Temp\testng-eclipse-236832530\testng-customsuite.xml</span>
+                    <span>C:\Users\JUBER AHMED\AppData\Local\Temp\testng-eclipse--1727952559\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="mainPackage.mainClass" hash-for-method="testingFramework">testingFramework</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="mainPackage.AnnotationPractice" hash-for-method="FirstTest">FirstTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -120,14 +120,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">mainPackage.mainClass</span>
+              <span class="class-name">mainPackage.AnnotationPractice</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testingFramework">
-                  </a> <!-- testingFramework -->
-                  <span class="method-name">testingFramework</span>
+                  <a name="FirstTest">
+                  </a> <!-- FirstTest -->
+                  <span class="method-name">FirstTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +135,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\JUBER AHMED\AppData\Local\Temp\testng-eclipse-236832530\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\JUBER AHMED\AppData\Local\Temp\testng-eclipse--1727952559\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,7 +144,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;mainPackage.mainClass&quot;/&gt;
+      &lt;class name=&quot;mainPackage.AnnotationPractice&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -186,14 +186,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testingFramework')
-data.setCell(0, 2, 'mainPackage.mainClass')
-data.setCell(0, 3, 428);
+data.setCell(0, 1, 'FirstTest')
+data.setCell(0, 2, 'mainPackage.AnnotationPractice')
+data.setCell(0, 3, 6);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 428 ms</span>
+              <span class="suite-total-time">Total running time: 6 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -219,15 +219,43 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">mainPackage.mainClass</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setDrivers</span>
+              <div class="chronological-class-name">mainPackage.AnnotationPractice</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">Before_Suite</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">Before_Test</span>
+                <span class="method-start">38 ms</span>
               </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">Before_Class</span>
+                <span class="method-start">59 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">Before_Method</span>
+                <span class="method-start">81 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testingFramework</span>
-                <span class="method-start">11161 ms</span>
+                <span class="method-name">FirstTest</span>
+                <span class="method-start">81 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">After_Method</span>
+                <span class="method-start">97 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">After_Class</span>
+                <span class="method-start">98 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">After_Test</span>
+                <span class="method-start">99 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">After_Suit</span>
+                <span class="method-start">195 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
