@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mainPackage.mainClass">
+      <class name="Functions.DynamicFuction">
         <methods>
-          <include name="testingFramework"/>
-          <include name="setDrivers"/>
+          <include name="dynamicFunction"/>
         </methods>
-      </class> <!-- mainPackage.mainClass -->
+      </class> <!-- Functions.DynamicFuction -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
