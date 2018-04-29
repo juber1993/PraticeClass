@@ -17,7 +17,7 @@ public class mainClass extends AssignDriver{
 	XpathLocators  loc= new XpathLocators ();
 	Values val= new Values();
 
-	//@Test
+//	@Test
 	public void testingFramework(){
 
 		APPLICATION_LOGS.debug("My Test Started");

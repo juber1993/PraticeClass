@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 
 
 public class DriverInt{
-	public static Logger APPLICATION_LOGS =Logger.getLogger("devpinoyLogger");
+	public static Logger APPLICATION_LOGS = Logger.getLogger("devpinoyLogger");
 	protected WebDriver driver;
 
 	public void typeByXpath(String XpathLocators, String Values)	{
